@@ -1,4 +1,5 @@
-import "./globals.css";
+import Header from "@/components/Header";
+import "./../globals.css";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -8,10 +9,11 @@ export const metadata = {
   description: "Case de vanzare avem ,caseeeeee",
 };
 
-export default function RootLayout({ children }) {
+export default function LoginAndSearchLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+    <div>
+      <Header />
+      {children}
+    </div>
   );
 }
