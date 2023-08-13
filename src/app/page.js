@@ -8,10 +8,6 @@ const Home = () => {
             <Header/>
             <>
                 <header>
-
-                    {/*<img
-                        src=""
-                        alt="Housing analytics image"/>*/}
                     <div className='hero'/>
                     <section className="features">
                         <h1>Analyze Housing Prices Like Never Before</h1>
