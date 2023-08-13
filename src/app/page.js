@@ -20,7 +20,7 @@ const Home = () => {
                             analytics
                             tools.</p>
                         <h2>Stay Updated</h2>
-                        <p>Subscribe to our newsletter for the latest insights and offers.</p>
+                        <p>Join our waiting list.</p>
                         <form method="post">
 
                             <input
